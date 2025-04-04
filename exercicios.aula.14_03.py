@@ -12,7 +12,7 @@ if numero >= 12 and numero <=17 :
 elif numero >= 18 :
         print ('É um adulto')
 
-Exercio2:
+#Exercio2:
 
 numero1= int(input('Digite um numero:'))
 print(f'{numero1} é o maior numero')
