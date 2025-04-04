@@ -24,7 +24,7 @@ if numero2 > numero1:
     print(f'{numero2} é o maior numero')
    
     if numero1 == numero2:  
-        #print('Os numeros são iguais')
+        print('Os numeros são iguais')
 
 #Exercicio3:
 
