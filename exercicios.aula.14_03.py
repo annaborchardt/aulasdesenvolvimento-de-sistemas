@@ -69,3 +69,24 @@ if media>= 7:
 
 elif media<7:
     print(f'A média é {media} você esta reprovado')
+
+#Exercicio6:
+
+numero1 = int(imput('Digite o primeiro número: '))
+numero2 = int(imput('Digite o segundo número: '))
+numero3 = int(imput('Digite o terceiro número: '))
+
+ListaDeNumeros = [numero1, numero2, numero3]
+
+Print('Os números em ordem decrescente são:{sorted(ListaDeNumeros reverse true)}')
+
+#Exercicio7:
+
+tempo= int (imput('Digite o tempo em horas: '))
+velocidade= int (imput('Digite a velocidade em Km/h : '))
+
+
+distancia= tempo * velocidade
+LitrosUsados= distancia /12
+
+print (f'A velocidade média é de: {velociade} Km/h \n Tempo gato na viagem foi de: {tempo} horas \n A distância percorrida foi de: {distancia} Km \n A quantiade de litros usados foi de: {LitrosUsados} L')
