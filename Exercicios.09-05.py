@@ -23,7 +23,6 @@ listaDeNumeros.sort(reverse=False)
 
 print(f"O menor número da lista é {listaDeNumeros[0]}\nO maior número da lista é {listaDeNumeros[-1]}")
 
-
 #Peça ao usuário uma palavra e mostre quantas vogais ela tem.
 
 #Peça ao usuário para digitar 6 números e mostre apenas os números pares digitados.
