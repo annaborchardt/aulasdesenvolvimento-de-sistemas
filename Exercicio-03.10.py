@@ -19,5 +19,5 @@ def testar_comparador_de_numeros(self):
         self.assertEqual(comparador_de_numeros(10, 11), '11 é maior do que o primeiro número.')
         self.assertEqual(comparador_de_numeros(10, 10), 'Os dois números são iguais.')
 
-if_name_=="__main__":
+if _name_=="__main__":
 unittest.main()
