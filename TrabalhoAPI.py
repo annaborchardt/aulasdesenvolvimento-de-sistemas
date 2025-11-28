@@ -64,6 +64,3 @@ def atualizar_tarefa(id: str, tarefa: Tarefa):
     raise HTTPException(status_code=status.HTTP_200_OK, detail=f"Tarefa atualizada com sucesso. Sua tarefa é: {tarefa.titulo}")
     if id in db_tarefa and len(tarefa.titulo) < 3:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Título inválido.")
-    
-    db_tarefa[id] = tarefa
-    raise HTTPException(status_code=status.HTTP_200_OK, detail=f"Tarefa atualizada com sucesso. Sua tarefa é: {tarefa.titulo}")
